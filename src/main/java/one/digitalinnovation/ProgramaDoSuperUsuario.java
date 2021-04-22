@@ -1,0 +1,10 @@
+package one.digitalinnovation;
+
+public class ProgramaDoSuperUsuario {
+    public static void main(String[] args) {
+        final var superUsuario = new SuperUsuario("root","123456");
+        System.out.println(superUsuario.getLogin());
+        System.out.println(superUsuario.getSenha());
+
+    }
+}
